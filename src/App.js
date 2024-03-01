@@ -13,7 +13,7 @@ function App() {
 
   const changehandler = (e)=>{
     e.preventDefault()
-    axios.post('http://localhost:3001/login',{title,img,desc,downloadurl})
+    axios.post('https://card-data-seven.vercel.app/login',{title,img,desc,downloadurl})
     .then((result)=>{
       console.log('data saved successfully')
       console.log(result)
