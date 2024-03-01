@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 const Card = () => {
-  const initalvalue = [{ email: "Aniket King", password: "24243535" }];
+  const initalvalue = [{ title: "Aniket King", img: "24243535", desc: "fsg",
+  downloadurl: "dsf"}];
   const [datas, setdatas] = useState(initalvalue);
   const Fetchdata = async () => {
     try {
