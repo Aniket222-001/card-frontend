@@ -11,9 +11,9 @@ function App() {
   const [desc,setdesc] = useState(' ')
   const [downloadurl,setdownloadurl] = useState(' ')
 
-  const changehandler = (e)=>{
+  const changehandler = async(e)=>{
     e.preventDefault()
-    axios.post('https://card-data-seven.vercel.app/login',{title,img,desc,downloadurl})
+    await axios.post('https://card-data-seven.vercel.app/login',{title,img,desc,downloadurl})
     .then((result)=>{
       console.log('data saved successfully')
       console.log(result)
