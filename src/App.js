@@ -10,6 +10,7 @@ function App() {
   const [img,setimg] = useState(' ')
   const [desc,setdesc] = useState(' ')
   const [downloadurl,setdownloadurl] = useState(' ')
+  axios.defaults.withCredentials = true;
 
   const changehandler = async(e)=>{
     e.preventDefault()
