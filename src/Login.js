@@ -12,6 +12,7 @@ const Card = () => {
       setdatas(parsedata);
     } catch (e) {
       console.log("failed to fetch data");
+      console.log('fuck you")
       console.log(e);
     }
   };
