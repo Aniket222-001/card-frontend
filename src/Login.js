@@ -30,7 +30,7 @@ const Card = () => {
               <p className="card-text">
               {mydata.desc}
               </p>
-              <a href={mydata.downloadurl} className="btn btn-primary" target="_blank">
+              <a href={mydata.downloadurl} className="btn  btn-primary" target="_blank">
                 download
               </a>
             </div>
