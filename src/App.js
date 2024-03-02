@@ -39,7 +39,7 @@ function App() {
        <button type='submit'>submit</button>
        </form>
       <Routes>
-        <Route path ='/Login' element={<Login/>}>Home</Route>
+        <Route path ='/home' element={<Login/>}>Home</Route>
       </Routes>
         <Login/>
     </div>
