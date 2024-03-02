@@ -7,12 +7,11 @@ const Card = () => {
   const Fetchdata = async () => {
     try {
       //    const url = '/api/data'
-      const data = await fetch("https://card-data-seven.vercel.app/api/data");
+      const data = await fetch("http://localhost:3001/api/data");
       const parsedata = await data.json();
       setdatas(parsedata);
     } catch (e) {
       console.log("failed to fetch data");
-      console.log('fuck you")
       console.log(e);
     }
   };
@@ -30,7 +29,7 @@ const Card = () => {
               <p className="card-text">
               {mydata.desc}
               </p>
-              <a href={mydata.downloadurl} className="btn  btn-primary" target="_blank">
+              <a href={mydata.downloadurl} className="btn btn-primary" target="_blank">
                 download
               </a>
             </div>
@@ -42,3 +41,4 @@ const Card = () => {
 };
 
 export default Card;
+
