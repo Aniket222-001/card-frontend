@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <h1>Hello</h1>
       <form action="" onSubmit={changehandler} className=''>
-       <label htmlFor="">tfsdfsdfsditle</label>
+       <label htmlFor="">tfsdfsdditle</label>
        <input type="text" name="" id="" onChange={(e)=>settitle(e.target.value)} />
        <label htmlFor="">img</label>
        <input type="text" name="" id=""  onChange={(e)=>setimg(e.target.value)}/>
