@@ -38,10 +38,10 @@ function App() {
        <input type="text"  onChange={(e)=>setdownloadurl(e.target.value)}/>
        <button type='submit'>submit</button>
        </form>
-      <Routes>
-        <Route path ='/home' element={<Login/>}>Home</Route>
-      </Routes>
-        <Login/>
+      // <Routes>
+      //   <Route path ='/home' element={<Login/>}>Home</Route>
+      // </Routes>
+        // <Login/>
     </div>
   );
 }
